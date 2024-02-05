@@ -1,0 +1,232 @@
+:root{
+    background-color: #3498db;
+    font-size: 15px;
+    max-width: 1800px;
+}
+
+header{
+    background-color: #e74c3c;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    padding: 2%;
+    margin: 1%;
+    display: grid;
+    grid-template-areas:
+         "a a a a a a s s s s s s"
+         "d d d d d d d d d d d d" 
+    ;
+}
+#a1{
+    grid-area: a;
+}
+#s1{
+    grid-area: s;
+    text-align: right;
+}
+#d1{
+    grid-area: d;
+    text-align: center;
+}
+
+.aks{
+    display: flex;
+    display: grid;
+    grid-template-areas: 
+        'j j j h h h g g g f f f'
+    ;
+}
+#f1{
+    grid-area: f;
+    text-align: center;
+    align-self: center;
+    padding: 3%;
+    margin: 3%;
+    font-size: 2em;
+}
+#g1{
+    grid-area: g;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+#h1{
+    grid-area: h;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+#j1{
+    grid-area: j;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 0% 10% 0% 0%;
+}
+#g1,#h1,#j1{
+    padding: 3px;
+    background-color: white;
+}
+#g1,#h1,#j1:hover{
+    cursor: pointer;
+}
+
+.boliz{
+    /* display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 100px; */
+    display: flex;
+    padding: 1%;
+    margin: 0.5%;
+    display: grid;
+    padding: 1%;
+    margin: 1%;
+    grid-template-areas: 
+        'w w w q q q l l l k k k'   
+    ; 
+}
+#k1{
+    grid-area: k;
+    font-size: 2em;
+    text-align: center;
+    align-self: center; 
+    padding: 0% 0% 0% 1%;
+    margin: 0% 0% 0% 15%;
+}
+#w1{
+    grid-area: w;
+    padding: 0% 0% 0% 1%;
+    margin: 0% 10% 0% 0%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+#q1{
+    grid-area: q;
+    padding: 0% 0% 0% 1%;
+    margin: 0% 0% 0% 1%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+#l1{
+    grid-area: l;
+    padding: 0% 0% 0% 1%;
+    margin: 0% 0% 0% 5%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: gray;
+}
+#l1,#q1,#w1:hover{
+    cursor: pointer;
+}
+
+.shalvar{
+    display: flex;
+    padding: 1%;
+    margin: 0.5%;
+    display: grid;
+    padding: 1%;
+    margin: 1%;
+    grid-template-areas: 
+        'r r r t t t y y y e e e'
+    ;
+}
+#e1{
+    grid-area: e;
+    font-size: 2em;
+    text-align: center;
+    align-self: center; 
+    padding: 0% 0% 0% 1%;
+    margin: 0% 0% 0% 15%;
+}
+#r1{
+    grid-area: r;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#t1{
+    grid-area: t;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0% 0% 0% 5%;
+}
+#y1{
+    grid-area: y;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0% 0% 0% 15%;
+}
+#y1,#t1,#r1:hover{
+    cursor: pointer;
+}
+
+caption,table,th,td{
+    border: 2px solid black;
+    font-size: 1.5em;
+}
+
+table,th,td{
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 20%;
+}
+
+th,td{
+    text-align: center;
+    align-items: center;
+}
+th,td,caption{
+    background-color: gray;
+    color: white;
+}
+
+.gheimat{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+#z1{
+    font-size: 1.8em;
+}
+#x1{
+    font-size: 1.8em;
+}
+#v1{
+    font-size: 1.8em;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+    padding: 0.9%;
+    margin: 0.8%;
+}
+
+footer{
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
+#p1{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px purple;
+}
